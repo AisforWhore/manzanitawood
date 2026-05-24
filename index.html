@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manzanita Wood Co. | Natural Wood Pieces</title>
+  <meta name="description" content="Natural manzanita wood pieces for aquariums, terrariums, crafts, events, and rustic home décor." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="brand">Manzanita Wood Co.</a>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#uses">Uses</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#request">Request a Piece</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Natural California Manzanita</p>
+      <h1>Unique wood pieces for habitats, aquariums, crafts, and rustic décor.</h1>
+      <p>
+        Hand-selected manzanita branches, roots, bundles, and statement pieces
+        with beautiful natural curves and rich earthy tones.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#request">Request a Custom Piece</a>
+        <a class="button secondary" href="#shop">View Options</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h2>Custom orders welcome</h2>
+      <p>Tell us your size, use, and style preference. We’ll help match the right piece.</p>
+      <ul>
+        <li>Aquarium & terrarium wood</li>
+        <li>Reptile and bird habitat pieces</li>
+        <li>Wedding, event, and home décor</li>
+        <li>Craft bundles and display branches</li>
+      </ul>
+    </div>
+  </section>
+
+  <main>
+    <section id="shop" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Shop by style</p>
+        <h2>Choose the kind of piece you need</h2>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="image image-one"></div>
+          <h3>Habitat Branches</h3>
+          <p>Natural climbing and display branches for reptiles, birds, and enclosure builds.</p>
+          <span>Custom sizes available</span>
+        </article>
+
+        <article class="product-card">
+          <div class="image image-two"></div>
+          <h3>Aquascape Pieces</h3>
+          <p>Twisted, sculptural pieces for aquariums and natural water displays.</p>
+          <span>Statement shapes</span>
+        </article>
+
+        <article class="product-card">
+          <div class="image image-three"></div>
+          <h3>Craft Bundles</h3>
+          <p>Smaller branches and decorative bundles for wreaths, centerpieces, and DIY projects.</p>
+          <span>Great for makers</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="uses" class="section feature-section">
+      <div>
+        <p class="eyebrow">Why manzanita?</p>
+        <h2>Strong, naturally sculptural, and beautiful from every angle.</h2>
+        <p>
+          Manzanita is known for its twisting shapes, rich reddish bark, and organic look.
+          Each piece has its own character, making it perfect for both practical builds and decorative displays.
+        </p>
+      </div>
+
+      <div class="use-list">
+        <div><strong>01</strong><span>Aquariums</span></div>
+        <div><strong>02</strong><span>Terrariums</span></div>
+        <div><strong>03</strong><span>Pet habitats</span></div>
+        <div><strong>04</strong><span>Wedding décor</span></div>
+        <div><strong>05</strong><span>Craft projects</span></div>
+        <div><strong>06</strong><span>Rustic displays</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <p class="eyebrow">About us</p>
+      <h2>Natural pieces, selected with care.</h2>
+      <p>
+        We provide manzanita wood for people who want something natural, unique,
+        and full of character. Whether you need one centerpiece branch or a bundle
+        for a larger project, we can help you find the right shape and size.
+      </p>
+    </section>
+
+    <section id="request" class="section request">
+      <div class="request-text">
+        <p class="eyebrow">Start here</p>
+        <h2>Request your piece</h2>
+        <p>
+          This form is ready for Netlify Forms. After publishing on Netlify,
+          form submissions can appear inside your Netlify dashboard.
+        </p>
+      </div>
+
+      <form name="request" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="request" />
+
+        <label>
+          Name
+          <input name="name" type="text" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email or phone
+          <input name="contact" type="text" placeholder="Where should we contact you?" required />
+        </label>
+
+        <label>
+          What are you looking for?
+          <textarea name="message" placeholder="Example: 24-inch branch for reptile enclosure, natural twist, shipped to California"></textarea>
+        </label>
+
+        <button type="submit">Send Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Manzanita Wood Co.</p>
+    <p>Natural wood pieces for aquariums, habitats, crafts, and décor.</p>
+  </footer>
+</body>
+</html>

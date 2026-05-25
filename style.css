@@ -20,7 +20,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Times New Roman, Helvetica, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -73,7 +73,7 @@ nav {
   padding: 90px 6%;
   background:
     linear-gradient(90deg, rgba(64, 40, 25, 0.90), rgba(64, 40, 25, 0.50)),
-    url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80");
+    url("https://unsplash.com/photos/lNDdGYj85Fc?auto=format&fit=crop&w=1800&q=80");
   background-size: cover;
   background-position: center;
   color: white;
@@ -215,15 +215,15 @@ h2 {
 }
 
 .image-one {
-  background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80");
+  background-image: url("https://unsplash.com/photos/yL2h8JXbi0E?auto=format&fit=crop&w=900&q=80");
 }
 
 .image-two {
-  background-image: url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=900&q=80");
+  background-image: url("https://unsplash.com/photos/ta69ALAeIi8?auto=format&fit=crop&w=900&q=80");
 }
 
 .image-three {
-  background-image: url("https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=900&q=80");
+  background-image: url("https://unsplash.com/photos/LrTxPer7JLs?auto=format&fit=crop&w=900&q=80");
 }
 
 .feature-section {
